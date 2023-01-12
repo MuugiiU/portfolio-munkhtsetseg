@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+.file {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
