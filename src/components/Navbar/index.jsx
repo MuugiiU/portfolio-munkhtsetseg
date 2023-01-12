@@ -1,5 +1,5 @@
 import Menu from "./menu";
-import "./style.module.scss";
+import styles from "./style.module.css";
 
 const Navbar = () => {
   return (

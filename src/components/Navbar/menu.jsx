@@ -1,4 +1,4 @@
-import style from "./style.module.scss";
+import style from "./style.module.css";
 
 const menus = [
   { title: "Home", link: "#hero" },
@@ -15,7 +15,7 @@ const Menu = () => {
     <div className={style.file}>
       <div className={style.new}>
         <img src="./img/rose.jpeg" className={style.img} />
-        <h2>Munkhtsetseg's portfolio</h2>
+        <h2 className={style.h2}>Munkhtsetseg's portfolio</h2>
       </div>
       <div>
         <ul className={style.MenuItems}>

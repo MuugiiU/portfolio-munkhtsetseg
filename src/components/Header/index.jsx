@@ -1,13 +1,12 @@
 import React from "react";
 import VideoPlayer from "react-background-video-player";
-
 import Text from "./Text";
 
 const index = () => {
   return (
     <div
       style={{
-        height: "80vh",
+        height: "70vh",
         position: "relative",
       }}
     >

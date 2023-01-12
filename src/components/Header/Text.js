@@ -7,24 +7,27 @@ const Text = () => {
     <div className="my">
       <div className="mytext">
         <h1 className={style.Text}>
-          I am the{" "}
-          <span style={{ color: "pink", fontWeight: "bold" }}>
-            {/* Style will be inherited from the parent element */}
-            <Typewriter
-              words={[
-                "React Developer",
-                "UI Designer",
-                "Software Engineering",
-                "E-Commerce Developer",
-              ]}
-              loop={false}
-              cursor
-              cursorStyle="_"
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
-            />
-          </span>
+          My name's Munkhtsetseg
+          <h2>
+            I am the{" "}
+            <span style={{ color: "pink", fontWeight: "bold" }}>
+              {/* Style will be inherited from the parent element */}
+              <Typewriter
+                words={[
+                  "React Developer",
+                  "UI Designer",
+                  "Software Engineering",
+                  "E-Commerce Developer",
+                ]}
+                loop={false}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
+          </h2>
           <span>
             <SocialIcon url="https://facebook.com" />
             <SocialIcon url="https://instagram.com" />
@@ -33,8 +36,8 @@ const Text = () => {
           </span>
         </h1>
       </div>
-      <div className="pic">
-        <img src="" />
+      <div className={style.pic}>
+        <img src="./img/mypic.jpeg" />
       </div>
     </div>
   );
