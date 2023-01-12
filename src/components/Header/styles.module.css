@@ -1,0 +1,24 @@
+.mytext {
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  position: relative;
+}
+.Text {
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.video {
+  z-index: -1;
+}
+
+#hero {
+  height: 60vh;
+}
+.social {
+  position: relative;
+  z-index: 3;
+}

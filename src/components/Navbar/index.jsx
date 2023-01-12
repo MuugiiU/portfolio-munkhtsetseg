@@ -1,9 +1,12 @@
-import React from "react";
 import Menu from "./menu";
-import "./style.css";
+import "./style.module.scss";
 
-const index = () => {
-  return <Menu />;
+const Navbar = () => {
+  return (
+    <div className="nav">
+      <Menu />;
+    </div>
+  );
 };
 
-export default index;
+export default Navbar;
