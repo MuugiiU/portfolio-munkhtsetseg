@@ -6,13 +6,13 @@ const index = () => {
   return (
     <div
       style={{
-        height: "70vh",
+        height: "80vh",
         position: "relative",
       }}
     >
       <VideoPlayer
         style={{
-          height: 900,
+          height: "100vh",
           zIndex: 1,
         }}
         src={

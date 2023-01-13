@@ -3,14 +3,14 @@
   max-width: 1280px;
   display: flex;
   position: relative;
-  margin-top: 100px;
 }
 .Text {
-  color: white;
-  text-align: center;
+  color: #8186d5;
+  margin-left: 70px;
   position: relative;
   z-index: 2;
   font-family: "Cambo", serif;
+  padding-top: 200px;
 }
 
 .video {
@@ -24,14 +24,10 @@
   position: relative;
   z-index: 3;
 }
-h2 {
-  color: pink;
+.mytext h2 {
+  color: #8186d5;
 }
-/* .mypic {
-  background-color: white;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-} */
+.icon {
+  display: flex;
+  gap: 20px;
+}

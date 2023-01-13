@@ -7,10 +7,10 @@ const Text = () => {
     <div className="my">
       <div className="mytext">
         <h1 className={style.Text}>
-          My name's Munkhtsetseg
+          Life is beautiful, enjoy every moment og it.
           <h2>
             I am the{" "}
-            <span style={{ color: "pink", fontWeight: "bold" }}>
+            <span style={{ color: "#C6CBEF", fontWeight: "bold" }}>
               {/* Style will be inherited from the parent element */}
               <Typewriter
                 words={[
@@ -28,16 +28,17 @@ const Text = () => {
               />
             </span>
           </h2>
-          <span>
+          <span className={style.icon}>
             <SocialIcon url="https://facebook.com" />
             <SocialIcon url="https://instagram.com" />
             <SocialIcon url="https://github.com" bgColor="white" />
             <SocialIcon url="https://discord.com" />
+            <SocialIcon url="https://google.com" />
           </span>
         </h1>
       </div>
       <div className={style.pic}>
-        <img src="./img/mypic.jpeg" />
+        <img src="" />
       </div>
     </div>
   );

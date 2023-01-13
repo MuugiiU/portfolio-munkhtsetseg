@@ -1,0 +1,45 @@
+#about {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #b7bde4;
+  z-index: 2;
+}
+.woman {
+  position: relative;
+  z-index: 2;
+  font-size: 30px;
+  padding: 100px;
+  text-align: center;
+  justify-content: center;
+  color: #a3423c;
+}
+.a {
+  width: 50px;
+  height: 50px;
+}
+.aboutpr {
+  display: flex;
+}
+.pic {
+  position: relative;
+  z-index: 2;
+  width: 200px;
+  height: 200px;
+  margin-left: 150px;
+}
+.span {
+  color: #a3423c;
+  position: relative;
+  z-index: 2;
+  margin-left: 170px;
+}
+.span h2 {
+  font-size: 1.85rem;
+  font-family: "Vesper Libre", serif;
+}
+.tag {
+  font-size: 1.25rem;
+  font-family: "Vesper Libre", serif;
+  color: #a3423c;
+}
