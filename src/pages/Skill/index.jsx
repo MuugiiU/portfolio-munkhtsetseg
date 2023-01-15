@@ -15,22 +15,22 @@ const Skill = () => {
         className={style.react}
         firstColor="blue"
         secondColor="whiteblue"
-        size={200}
+        size={50}
         duration={1}
       />
       <HTMLIcon
         firstColor="white"
         secondColor="whiteblue"
-        size={200}
+        size={50}
         duration={1}
       />
       <NodejsIcon
         firstColor="white"
         secondColor="whiteblue"
-        size={200}
+        size={50}
         duration={1}
       />
-      <SassIcon firstColor="pink" secondColor="pink" size={200} duration={1} />
+      <SassIcon firstColor="pink" secondColor="pink" size={50} duration={1} />
       <Cards />
     </div>
   );

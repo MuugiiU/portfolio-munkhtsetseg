@@ -1,5 +1,4 @@
 #education {
-  background: aquamarine;
   margin: 0 auto;
   height: 100vh;
 }
@@ -8,4 +7,31 @@
   color: blueviolet;
   font-size: 2.5rem;
   padding: 20px;
+}
+.border {
+  display: flex;
+  border: 2px solid blueviolet;
+  border-radius: 30px;
+  gap: 30px;
+  margin: 20px;
+}
+.pic {
+  width: 450px;
+  height: 200px;
+  margin-left: 50px;
+}
+.name {
+  font-size: 2rem;
+  color: blueviolet;
+}
+.title {
+  font-size: 1.75rem;
+  color: blueviolet;
+}
+.major {
+  font-size: 1.5rem;
+  color: blueviolet;
+}
+.years {
+  color: blueviolet;
 }

@@ -1,14 +1,15 @@
 import React from "react";
 import { cards } from "../../data/skill";
+import style from "./style.module.css";
 
 const Cards = () => {
   return (
-    <div>
+    <div className="tom">
       {cards.map((card, index) => {
         return (
-          <div className="border" key={index}>
-            <h3>{cards.name} </h3>
-            <img src={cards.icon} />
+          <div className={style.border} key={index}>
+            <h2 className={style.title}>{card.name} </h2>
+            <img src={card.icon} className={style.icon} />
           </div>
         );
       })}

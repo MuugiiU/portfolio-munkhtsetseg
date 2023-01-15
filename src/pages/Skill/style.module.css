@@ -2,12 +2,12 @@
   margin: 0 auto;
   height: 100vh;
   background: #86e5ff;
+  width: 100wh;
 }
 .ski {
   font-size: 2rem;
   color: #7b2869;
   margin-left: 450px;
-  padding: 50px;
 }
 .abi {
   font-size: 2rem;
@@ -15,12 +15,22 @@
 }
 .react {
   margin-left: 200px;
-  padding-right: 20px;
+}
+.tom {
+  display: flex;
 }
 .border {
-  border: 1px solid white;
+  border: 1px solid rgb(169, 70, 70);
   width: 20px;
-}
-.educ {
   display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  gap: 10px;
+  margin-left: 30px;
+}
+.title {
+  color: #9d3c72;
+}
+.icon {
+  font-size: 20px;
 }
