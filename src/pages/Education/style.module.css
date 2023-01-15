@@ -1,0 +1,11 @@
+#education {
+  background: aquamarine;
+  margin: 0 auto;
+  height: 100vh;
+}
+.ner {
+  text-align: center;
+  color: blueviolet;
+  font-size: 2.5rem;
+  padding: 20px;
+}
