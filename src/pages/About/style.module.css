@@ -1,14 +1,14 @@
 #about {
   margin: 0 auto;
-  height: 100vh;
-  background-color: #b7bde4;
-  z-index: 2;
+  position: relative;
+  max-width: 100%;
+  margin-top: 200px;
 }
 .woman {
   position: relative;
+
   z-index: 2;
   font-size: 30px;
-  padding: 150px;
   text-align: center;
   justify-content: center;
   color: #a3423c;

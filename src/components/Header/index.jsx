@@ -2,6 +2,7 @@ import React from "react";
 import VideoPlayer from "react-background-video-player";
 import Text from "./Text";
 
+
 const index = () => {
   return (
     <div

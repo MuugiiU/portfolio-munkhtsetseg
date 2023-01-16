@@ -1,11 +1,14 @@
 import React from "react";
 import style from "./style.module.css";
 import Education from "./Educa";
+import { Wave } from "react-animated-text";
 
 const index = () => {
   return (
-    <div id={style.education}>
-      <h2 className={style.ner}>Education</h2>
+    <div id="education" className={style.education}>
+      <h2 className={style.ner}>
+        <Wave text=" Education" />
+      </h2>
       <Education />
     </div>
   );

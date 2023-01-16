@@ -22,5 +22,12 @@ const edus = [
     years: "2009-2012",
     ImageURL: "./img/paichai_logo.jpeg",
   },
+  {
+    name: "Pine cone Academy",
+    title: "Full Stack",
+    major: "Web development",
+    years: "2022-2023",
+    ImageURL: "./img/pine.jpeg",
+  },
 ];
 export default edus;
