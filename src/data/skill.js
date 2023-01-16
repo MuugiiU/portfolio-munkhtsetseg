@@ -8,23 +8,12 @@ export const cards = [
     name: "NodeJS",
     icon: "https://img.icons8.com/color/48/000000/nodejs.png",
   },
-  {
-    name: "Redux",
-    icon: "https://img.icons8.com/color/48/000000/redux.png",
-  },
-  {
-    name: "Firebase",
-    icon: "https://img.icons8.com/color/48/000000/firebase.png",
-  },
 
   {
     name: "MaterialUI",
     icon: "https://img.icons8.com/color/48/000000/material-ui.png",
   },
-  {
-    name: "ChakraUI",
-    icon: "https://img.icons8.com/color/48/000000/chakra-ui.png",
-  },
+
   {
     name: "TailwindCSS",
     icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png",

@@ -1,13 +1,14 @@
 #skill {
   margin: 0 auto;
+  text-align: center;
 }
 .ski {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #7b2869;
-  margin-left: 450px;
+  text-align: center;
 }
 .abi {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #9d3c72;
 }
 .react {
@@ -16,7 +17,7 @@
 .tom {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 50px;
 }
 .border {
   border: 1px solid rgb(169, 70, 70);

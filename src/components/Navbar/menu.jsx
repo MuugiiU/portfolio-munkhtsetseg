@@ -1,13 +1,14 @@
+import { Link } from "react-router-dom";
 import style from "./style.module.css";
 
 const menus = [
-  { title: "Home", link: "#hero" },
-  { title: "About", link: "#about" },
-  { title: "Skills", link: "#skill" },
-  { title: "Education", link: "#education" },
-  { title: "Work", link: "#work" },
-  { title: "Experience", link: "#experience" },
-  { title: "Contact", link: "#contact" },
+  { title: "Home", link: "/header" },
+  { title: "About", link: "/about" },
+  { title: "Skills", link: "/skill" },
+  { title: "Education", link: "/education" },
+  { title: "Work", link: "/work" },
+  { title: "Experience", link: "/experience" },
+  { title: "Contact", link: "/contact" },
 ];
 
 const Menu = () => {
@@ -22,9 +23,9 @@ const Menu = () => {
           {menus.map((menus, index) => {
             return (
               <li className={style.li}>
-                <a href={menus.link} key={index} className={style.a_tag}>
+                <Link to={menus.link} key={index} className={style.a_tag}>
                   {menus.title}
-                </a>
+                </Link>
               </li>
             );
           })}

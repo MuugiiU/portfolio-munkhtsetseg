@@ -29,16 +29,26 @@ const Text = () => {
             </span>
           </h2>
           <span className={style.icon}>
-            <SocialIcon url="https://facebook.com" />
-            <SocialIcon url="https://instagram.com" />
-            <SocialIcon url="https://github.com" bgColor="white" />
-            <SocialIcon url="https://discord.com" />
-            <SocialIcon url="https://google.com" />
+            <SocialIcon
+              url="https://facebook.com/munkhtsetseg.urtnasan/"
+              target={"_blank"}
+            />
+            <SocialIcon
+              url="https://instagram.com/muugiinomin"
+              target={"_blank"}
+            />
+            <SocialIcon
+              url="https://github.com/MuugiiU"
+              bgColor="white"
+              target={"_blank"}
+            />
+            <SocialIcon
+              url="https://discord.com/AzureMuugii"
+              target={"_blank"}
+            />
+            <SocialIcon url="https://google.com" target={"_blank"} />
           </span>
         </h1>
-      </div>
-      <div className={style.pic}>
-        <img src="" />
       </div>
     </div>
   );

@@ -1,11 +1,13 @@
 import React from "react";
 import VideoPlayer from "react-background-video-player";
 import Text from "./Text";
+import headercss from "./styles.module.css";
 
-
-const index = () => {
+const Header = () => {
   return (
     <div
+      id="header"
+      className={headercss.container}
       style={{
         height: "80vh",
         position: "relative",
@@ -27,4 +29,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Header;

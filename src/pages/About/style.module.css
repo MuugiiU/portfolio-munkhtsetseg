@@ -1,21 +1,21 @@
-#about {
+.about {
   margin: 0 auto;
   position: relative;
   max-width: 100%;
-  margin-top: 200px;
+  margin-top: 230px;
 }
 .woman {
   position: relative;
 
   z-index: 2;
-  font-size: 30px;
+  font-size: 48px;
   text-align: center;
   justify-content: center;
   color: #a3423c;
 }
 .a {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
 }
 .aboutpr {
   display: flex;
@@ -23,9 +23,9 @@
 .pic {
   position: relative;
   z-index: 2;
-  width: 200px;
-  height: 200px;
-  margin-left: 150px;
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
 }
 .span {
   color: #a3423c;
@@ -41,4 +41,8 @@
   font-size: 1.25rem;
   font-family: "Vesper Libre", serif;
   color: #a3423c;
+}
+.par {
+  z-index: -1 !important;
+  position: relative;
 }

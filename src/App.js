@@ -11,18 +11,22 @@ import Work from "./pages/Work";
 import Experience from "../src/pages/Experience";
 import Contact from "../src/pages/Contact";
 import VideoPlayer from "react-background-video-player";
+import { Route, Routes } from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
       <div className="container">
         <Navbar />
-        <Header />
-        <About />
-        <Skill />
-        <Education />
-        <Work />
-        <Experience />
-        <Contact />
+        <Routes>
+          <Route path="/header" exact element={<Header />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skill" element={<Skill />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
     </div>
   );

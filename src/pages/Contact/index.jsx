@@ -8,12 +8,12 @@ const Contact = () => {
       <div>
         <h2 className={styles.garchig}>Contact Us</h2>
       </div>
-      <div className={styles.input}>
+      <div>
         <FaAddressBook />
-        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Name" className={styles.input} />
         <FaRegEnvelope />
-        <input type="e-mail" placeholder="Email" />
-        <input type="number" placeholder="Phone" />
+        <input type="e-mail" placeholder="Email" className={styles.input} />
+        <input type="number" placeholder="Phone" className={styles.input} />
       </div>
     </div>
   );

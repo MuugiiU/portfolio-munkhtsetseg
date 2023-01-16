@@ -4,13 +4,14 @@ import { HTMLIcon, NodejsIcon, SassIcon } from "react-webtech-animated-icons";
 import { ReactIcon } from "react-webtech-animated-icons";
 import { cards } from "../../data/skill";
 import Cards from "./Cards";
+import Particle from "../../components/Particle";
 const Skill = () => {
   return (
     <div id="skill" className={style.skill}>
       <h2 className={style.ski}>
         Skills&<span className={style.abi}>Abilites</span>
       </h2>
-
+      <Particle />
       <ReactIcon
         className={style.react}
         firstColor="blue"
