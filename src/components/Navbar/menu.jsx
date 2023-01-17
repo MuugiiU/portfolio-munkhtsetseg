@@ -6,8 +6,7 @@ const menus = [
   { title: "About", link: "/about" },
   { title: "Skills", link: "/skill" },
   { title: "Education", link: "/education" },
-  { title: "Work", link: "/work" },
-  { title: "Experience", link: "/experience" },
+  { title: "Projects", link: "/projects" },
   { title: "Contact", link: "/contact" },
 ];
 
