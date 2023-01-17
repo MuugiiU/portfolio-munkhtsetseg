@@ -2,7 +2,8 @@ import "./App.css";
 import { SocialIcon } from "react-social-icons";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
-import Navbar from "./components/Navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbarmenu from "./components/Navbarmenu";
 import Header from "./components/Header";
 import Skill from "../src/pages/Skill";
 import Education from "../src/pages/Education";
@@ -16,17 +17,15 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Navbar />
-        <Routes>
-          <Route path="/header" exact element={<Header />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skill" element={<Skill />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
+      <Navbarmenu />
+      <Routes>
+        <Route path="/" exact element={<Header />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skill" element={<Skill />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
