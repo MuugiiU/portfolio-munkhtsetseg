@@ -6,8 +6,8 @@ import Particle from "../../components/Particle";
 
 const About = () => {
   return (
-    <div id="about" className={style.about}>
-      <div>
+    <div id="about" className="row">
+      <div className={style.about}>
         <h3 className={style.woman}>
           <Wave text="About me" />
           <FcBusinesswoman className={style.a} />
@@ -16,9 +16,12 @@ const About = () => {
       <div className={style.par}>
         <Particle />
       </div>
-
-      <div className={style.aboutpr}>
-        <img src="./img/profile-pic.png" className={style.pic} />
+      <div className="col col-md-6 col-sm-12">
+        <div className={style.aboutpr}>
+          <img src="./img/profile-pic.png" className={style.pic} />
+        </div>
+      </div>
+      <div className="col col-md-6 col-sm-12">
         <div className={style.span}>
           <h2>
             I'm Munkhtsetseg <br />

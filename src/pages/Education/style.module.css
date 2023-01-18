@@ -15,8 +15,7 @@
   margin: 20px;
 }
 .pic {
-  width: 450px;
-  height: 200px;
+  width: 75%;
   margin-left: 50px;
   padding: 10px;
 }
@@ -34,4 +33,8 @@
 }
 .years {
   color: blueviolet;
+}
+.col1 {
+  width: 100%;
+  margin-left: 50px;
 }

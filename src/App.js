@@ -17,15 +17,17 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Navbarmenu />
-      <Routes>
-        <Route path="/" exact element={<Header />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skill" element={<Skill />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <div className="container-fluid">
+        <Navbarmenu />
+        <Routes>
+          <Route path="/" exact element={<Header />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skill" element={<Skill />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
     </div>
   );
 }

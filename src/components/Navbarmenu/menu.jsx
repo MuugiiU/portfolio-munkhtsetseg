@@ -25,15 +25,15 @@ const Menu = () => {
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" className={style.a_tag}>
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className={style.file}>
             {menus.map((menus, index) => {
               return (
                 <Nav.Link
+                  className={style.a_tag}
                   as={NavLink}
                   to={menus.link}
                   key={index}
-                  className={style.li}
                 >
                   {menus.title}
                 </Nav.Link>

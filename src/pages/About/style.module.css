@@ -2,7 +2,6 @@
   margin: 0 auto;
   position: relative;
   max-width: 100%;
-  margin-top: 230px;
 }
 .woman {
   position: relative;
@@ -20,17 +19,13 @@
   display: flex;
 }
 .pic {
-  position: relative;
-  z-index: 2;
   width: 300px;
   height: 300px;
-  margin-left: 100px;
+  text-align: center;
+  margin-left: 50px;
 }
 .span {
   color: #a3423c;
-  position: relative;
-  z-index: 2;
-  margin-left: 170px;
 }
 .span h2 {
   font-size: 1.85rem;

@@ -19,9 +19,11 @@
   font-size: 1.5rem;
   font-family: "Italianno", cursive;
   justify-content: space-between;
+  transition: 0.5s all;
 }
 .a_tag:hover {
   color: pink;
+  transform: scale(1.2);
 }
 .MenuItems {
   display: flex;

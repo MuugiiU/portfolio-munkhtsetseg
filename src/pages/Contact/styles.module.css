@@ -1,30 +1,11 @@
-.contact {
-  background-image: url(../../../public/img/contact.jpeg);
+.pic {
   width: 100%;
-  opacity: 0.5;
 }
-.garchig {
-  color: rgb(64, 195, 195);
+.h1 {
   text-align: center;
-  font-size: 2.5rem;
-}
-.barih {
-  position: absolute;
-}
-img {
-  position: relative;
-}
-.in {
-  width: 250px;
-  height: 40px;
-  gap: 20px;
-  display: flex;
-}
-.flex {
-  display: flex;
-  align-items: center;
+  margin: 10px 0 30px;
+  color: #6c63ff;
 }
 .icon {
-  height: 40px;
-  width: 50px;
+  color: #6c63ff;
 }
