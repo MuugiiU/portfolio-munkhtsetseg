@@ -11,6 +11,7 @@ import About from "../src/pages/About";
 
 import Projects from "./pages/Projects";
 import Contact from "../src/pages/Contact";
+// eslint-disable-next-line no-unused-vars
 import VideoPlayer from "react-background-video-player";
 import { Route, Routes } from "react-router-dom";
 

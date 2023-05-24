@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import style from "./style.module.css";
 import Navbar from "react-bootstrap/Navbar";
