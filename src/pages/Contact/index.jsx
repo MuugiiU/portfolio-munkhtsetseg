@@ -10,7 +10,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 const Contact = () => {
   return (
     <div className="row">
-      <h1 className={styles.h1}>Contact Us</h1>
+      <h1 className={styles.h1}>Холбоо барих</h1>
       <div className="col col-md-6 col-sm-12">
         <img src="./img/contact.png" alt="" className={styles.pic} />
       </div>
@@ -20,7 +20,7 @@ const Contact = () => {
             <FaAddressBook className={styles.icon} />
           </InputGroup.Text>
           <Form.Control
-            placeholder="Name"
+            placeholder="Нэр"
             aria-label="Username"
             aria-describedby="basic-addon1"
           />
@@ -31,7 +31,7 @@ const Contact = () => {
             <FaRegEnvelope className={styles.icon} />
           </InputGroup.Text>
           <Form.Control
-            placeholder="Email"
+            placeholder="Имэйл"
             aria-label="Email"
             aria-describedby="basic-addon1"
           />
@@ -42,7 +42,7 @@ const Contact = () => {
             <FaPhoneSquareAlt className={styles.icon} />
           </InputGroup.Text>
           <Form.Control
-            placeholder="Phone"
+            placeholder="Утасны дугаар"
             aria-label="Number"
             aria-describedby="basic-addon1"
           />

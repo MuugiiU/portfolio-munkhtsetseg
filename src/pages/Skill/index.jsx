@@ -7,7 +7,7 @@ import Cards from "./Cards";
 import Particle from "../../components/Particle";
 const Skill = () => {
   return (
-    <div id="skill" className={style.skill}>
+    <div id="skill" className={style.skill} >
       <h2 className={style.ski}>
         Skills&<span className={style.abi}>Abilites</span>
       </h2>
@@ -16,19 +16,19 @@ const Skill = () => {
         className={style.react}
         firstColor="blue"
         secondColor="whiteblue"
-        size={150}
+        size={200}
         duration={1}
       />
       <HTMLIcon
         firstColor="white"
         secondColor="yellow"
-        size={150}
+        size={200}
         duration={1}
       />
       <NodejsIcon
         firstColor="green"
         secondColor="green"
-        size={150}
+        size={200}
         duration={1}
       />
       <SassIcon firstColor="pink" secondColor="pink" size={150} duration={1} />

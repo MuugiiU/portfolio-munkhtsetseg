@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import edus from "../../data/edu";
 import style from "./style.module.css";
 

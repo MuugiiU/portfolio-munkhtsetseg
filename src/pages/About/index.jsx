@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import style from "../About/style.module.css";
 import React from "react";
 import { Wave } from "react-animated-text";
@@ -24,15 +25,16 @@ const About = () => {
       <div className="col col-md-6 col-sm-12">
         <div className={style.span}>
           <h2>
-            I'm Munkhtsetseg <br />
+            Намайг Мөнхцэцэг гэнэ<br />
             <span>Full Stack Developer</span>
           </h2>
           <p className={style.tag}>
-            I am a Full-Stack developer based in Ulaanbaatar, Mongolia. I am an
-            E-Commerce Masters graduate from South-Korea . I am very passionate
-            about improving my coding skills & developing applications &
-            websites. I build WebApps and Websites using MERN Stack. Working for
-            myself to improve my skills. Love to build Full-Stack clones.
+          Уртнасан овогтой Мөнхцэцэг 2007 онд Улаанбаатар дээд сургуулийг программ хангамжийн инженер мэргэжлээр баклавр, 
+          2012 онд Солонгос улсын Дэжон хотын Pai Chai University -д E-Commerce мэргэжлээр магистрийн зэрэгтэй тус тус төгссөн. 
+          Солонгост  H BEAM -ийн үйлдвэрийн зураг төслийн багт 5 сар ажилласан туршлагатай. 
+          Солонгос хэлний 4-р түвшинтэй. Одоогоор Pinecone Academy-д вэб хөгжүүлэгчээр  9 сарын турш амжилттай суралцаад төгсөх гэж байна.
+           Суралцаж байх хугацаандаа MERN stack багаар ажиллах, асуудлыг оновчтой шийдвэрлэх, хэрэгтэй мэдээллээ богино хугацаанд хайж олох зэрэг чадваруудыг эзэмшсэн.
+
           </p>
         </div>
       </div>
